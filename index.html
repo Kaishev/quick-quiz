@@ -8,29 +8,42 @@
   </head>
   <body>
     <div class="quiz" id="quiz">
-      <div class="quiz-header" id="quiz-header">
+
         <!-- Заголовок вопроса -->
+      <div class="quiz-header" id="quiz-header">
         <h2 class="title">Загружаем вопрос...</h2>
+
+        <!-- Результаты Викторыины-->
+        <h2 class="title">%title%</h2>
+        <h3 class="summary">%message%</h3>
+        <p class="results">%results%</p>
       </div>
 
+        <!-- Список ответов -->
       <ul class="quiz-list" id="list">
+
         <li>
           <label>
             <input type="radio" class="answer" name="answer" />
-            <span>Ответ...</span>
+            <span>Перебираем ответы...</span>
           </label>
         </li>
+
         <li>
           <label>
             <input type="radio" class="answer" name="answer" />
-            <span>Ответ...</span>
+            <span>Перебираем ответы...</span>
           </label>
         </li>
+
       </ul>
 
+        <!-- Конпка -->
       <button class="quiz-submit submit" id="submit">Ответить</button>
+
     </div>
 
     <script src="/main.js"></script>
+
   </body>
 </html>
